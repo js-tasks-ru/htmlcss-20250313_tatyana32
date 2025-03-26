@@ -1,0 +1,6 @@
+.main {
+    background-color: #f9fafc;
+    height: 400px;
+    border-style: solid none;
+    border: 1px solid var(--grey-2);
+}
