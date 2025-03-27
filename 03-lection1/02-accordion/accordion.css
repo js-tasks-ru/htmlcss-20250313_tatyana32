@@ -1,6 +1,4 @@
 .accordion {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
@@ -17,6 +15,8 @@
 }
 
 .accordion__summary {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     color: var(--black);
 }
 
@@ -27,6 +27,8 @@
 }
 
 .accordion__details {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     color: var(--grey-4);
 }
 
