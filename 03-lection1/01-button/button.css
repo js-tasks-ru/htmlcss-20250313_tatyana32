@@ -6,6 +6,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 19px;
+    cursor: pointer;
 }
 
 .button:disabled {
@@ -18,13 +19,25 @@
     background-color: var(--primary);
 }
 
+.button_primary:hover {
+    background-color: var(--blue-hover);
+}
+
 .button_secondary {
     color: var(--white);
     background-color: var(--secondary);
+}
+
+.button_secondary:hover {
+    background-color: var(--purple-hover);
 }
 
 .button_alt {
     color: var(--grey-4);
     background-color: var(--white);
     border: 1px solid var(--grey-3);
+}
+
+.button_alt:hover {
+    border: 1px solid var(--black);
 }
