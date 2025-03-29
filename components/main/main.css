@@ -1,6 +1,12 @@
 .main {
-    height: 400px;
+    padding: 68px 0;
     background-color: #f9fafc;
     border-style: solid none;
     border: 1px solid var(--grey-2);
+}
+
+.main__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
