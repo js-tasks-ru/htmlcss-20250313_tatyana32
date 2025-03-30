@@ -30,8 +30,8 @@
     content: "";
     border: 10px solid transparent;
     position: absolute;
-    border-bottom-color: var(--primary);
-    bottom: 100%;
+    border-top-color: var(--primary);
+    top: 100%;
     left: 50%;
     transform: translateX(-50%);
 }
