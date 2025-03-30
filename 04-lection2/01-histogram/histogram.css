@@ -42,9 +42,10 @@
     line-height: 24px;
     text-align: right;
     color: var(--blue);
-    margin: 0;
+    margin-top: 3px;
+    text-decoration: none;
 }
-  
+
 .histogram__columns {
     display: flex;
     align-items: flex-end;
@@ -56,6 +57,9 @@
 .histogram__column {
     background-color: var(--blue);
     flex-grow: 1;
+}
+
+.histogram__column_full {
     height: 100%;
 }
 
