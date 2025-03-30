@@ -31,5 +31,5 @@
 }
 
 .accordion__item[open] .accordion__details {
-    padding-bottom: 8px;
+    padding: 16px 0px 8px;
 }
