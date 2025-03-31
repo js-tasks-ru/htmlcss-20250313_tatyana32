@@ -20,7 +20,7 @@
     border-radius: 10px;
     width: 127px;
     position: absolute;
-    top: calc(100% + 8px);
+    bottom: calc(100% + 8px);
     left: 50%;
     transform: translateX(-50%);
     display: none;
