@@ -54,7 +54,7 @@
     flex-grow: 1;
 }
 
-.histogram__column {
+.histogram__color {
     background-color: var(--blue);
 }
 
@@ -68,6 +68,7 @@
 
 .histogram__column_medium {
     height: 50%;
+
 }
 
 .histogram__column_small {
