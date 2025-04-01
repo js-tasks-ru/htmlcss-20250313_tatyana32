@@ -12,6 +12,8 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --blue-hover: #2342c0;
+    --purple-hover: #5028c6;
 
     --error: var(--red);
     --success: var(--blue);
