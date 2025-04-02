@@ -1,5 +1,11 @@
 @import '../fonts/fonts.css';
 @import './normalize.css';
+@import '../../components/footer/footer.css';
+@import '../../components/header/header.css';
+@import '../../components/page/page.css';
+@import '../../components/main/main.css';
+@import '../../components/container/container.css';
+@import '../../components/card/card.css';
 
 :root {
     --white: #ffffff;
@@ -12,12 +18,16 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --blue-hover: #2342c0;
+    --purple-hover: #5028c6;
 
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --container-width: 1110px;
 }
 
 body {
