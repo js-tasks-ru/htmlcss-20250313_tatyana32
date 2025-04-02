@@ -23,3 +23,23 @@
     text-align: center;
     max-width: 640px;
 }
+
+.footer_transparent {
+    background-color: #F9FAFC;
+    padding: 56px 0;
+    text-align: center;
+}
+
+.footer__title_transparent {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
+
+@media (max-width: 376px) {
+    .footer {
+        display: none;
+    }
+}

@@ -10,3 +10,8 @@
     line-height: 64px;
     color: var(--black);
 }
+
+.header_transparent {
+    background-color: #F9FAFC;
+    padding: 24px 0px 60px;
+}
