@@ -20,10 +20,11 @@
 
 @media (max-width: 376px) {
     .component {
-        border: none;
+        border-radius: 0;
         padding: 32px 16px;
         box-shadow: none;
         gap: 20px;
+        width: 375px;
     }
 
     .component__title {

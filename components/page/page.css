@@ -13,9 +13,3 @@
     grid-template-columns: auto 1fr;
     gap: 56px;
 }
-
-@media (max-width: 376px) {
-    .page__main {
-        display: block;
-    }
-}
