@@ -15,3 +15,9 @@
     background-color: #F9FAFC;
     padding: 24px 0px 60px;
 }
+
+@media (max-width: 376px) {
+    .header_transparent {
+        padding: 16px;
+    }
+}
