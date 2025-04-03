@@ -1,8 +1,8 @@
 .main {
     padding: 68px 0;
     background-color: #f9fafc;
-    border-style: solid none;
-    border: 1px solid var(--grey-2);
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
 }
 
 .main__cards {
