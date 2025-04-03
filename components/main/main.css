@@ -10,3 +10,10 @@
     flex-wrap: wrap;
     gap: 30px;
 }
+
+@media (max-width: 376px) {
+    .main {
+        padding: 23px 15px 23px 16px;
+        gap: 16px;
+    }
+}

@@ -18,3 +18,16 @@
     color: var(--black);
     margin: 0;
 }
+
+@media (max-width: 376px) {
+    .card {
+        height: 231px;
+        padding-bottom: 8px;
+    }
+
+    .card__title {      
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
