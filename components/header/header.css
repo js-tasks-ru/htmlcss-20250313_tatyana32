@@ -10,3 +10,16 @@
     line-height: 64px;
     color: var(--black);
 }
+
+@media (max-width: 767px) {
+    .header {
+        padding: 48px 16px 69px;
+    }
+
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+    }
+}
