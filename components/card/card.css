@@ -19,10 +19,11 @@
     margin: 0;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     .card {
         height: 231px;
         padding-bottom: 8px;
+        width: 100%;
     }
 
     .card__title {      
