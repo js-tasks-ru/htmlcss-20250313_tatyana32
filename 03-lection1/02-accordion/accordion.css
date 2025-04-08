@@ -18,6 +18,9 @@
 
 .accordion__summary {
     color: var(--black);
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .accordion__summary::-webkit-details-marker, 
@@ -32,4 +35,10 @@
 
 .accordion__item[open] .accordion__details {
     padding: 16px 0px 8px;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    fill: var(--red);
 }
