@@ -11,12 +11,15 @@
     color: var(--black);
 }
 
-.header_component {
-    background-color: #F9FAFC;
-}
-
 @media (max-width: 767px) {
-    .header_transparent {
-        padding: 16px;
+    .header {
+        padding: 48px 16px 69px;
+    }
+
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
     }
 }
