@@ -33,7 +33,3 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
-svg {
-    fill: var(--black);
-}
