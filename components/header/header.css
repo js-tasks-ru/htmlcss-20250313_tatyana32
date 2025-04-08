@@ -11,13 +11,15 @@
     color: var(--black);
 }
 
-.header_transparent {
-    background-color: #F9FAFC;
-    padding: 24px 0px 60px;
-}
+@media (max-width: 767px) {
+    .header {
+        padding: 48px 16px 69px;
+    }
 
-@media (max-width: 376px) {
-    .header_transparent {
-        padding: 16px;
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
     }
 }

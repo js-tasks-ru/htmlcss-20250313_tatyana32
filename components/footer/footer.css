@@ -37,8 +37,7 @@
     text-transform: uppercase;
     color: var(--grey-3);
 }
-
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     .footer {
         display: none;
     }
