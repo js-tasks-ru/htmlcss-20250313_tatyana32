@@ -20,17 +20,19 @@
     font-size: 14px;
     line-height: 22px;
     color: var(--black);
+    text-decoration: none;
 }
 
-.menu__tab.selected {
+.menu__tab_selected {
     color: var(--red);
+    text-decoration: none;
 }
 
 .menu__tab:last-child {
     margin-top: 26px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     .menu {
        display: none;
     }
