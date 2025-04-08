@@ -13,9 +13,6 @@
     gap: 12px;
     cursor: pointer;
 }
-.checkbox__icon {
-    display: none;
-}
 
 .checkbox__control {
     width: 28px;
@@ -26,6 +23,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.checkbox__icon {
+    display: none;
 }
 
 .checkbox__legend {
