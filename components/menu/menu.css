@@ -1,0 +1,39 @@
+.menu {
+    width: 229px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.menu__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+    margin-bottom: 12px ;
+}
+
+.menu__tab {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.menu__tab_selected {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.menu__tab:last-child {
+    margin-top: 26px;
+}
+
+@media (max-width: 767px) {
+    .menu {
+       display: none;
+    }
+}

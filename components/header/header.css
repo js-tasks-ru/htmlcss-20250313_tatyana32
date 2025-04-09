@@ -11,6 +11,10 @@
     color: var(--black);
 }
 
+.header_component {
+    background-color: #F9FAFC;
+}
+
 @media (max-width: 767px) {
     .header {
         padding: 48px 16px 69px;
