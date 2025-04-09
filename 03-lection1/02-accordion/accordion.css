@@ -40,6 +40,7 @@
 .accordion__item[open] .icon {
     transform: rotate(180deg);
 }
+
 .icon {
     height: 24px;
     width: 24px;
