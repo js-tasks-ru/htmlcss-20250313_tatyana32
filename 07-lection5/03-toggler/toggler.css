@@ -23,11 +23,12 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    padding: 0 2px;
+    padding-left: 2px;
 }
 
 .toggler__icon {
     color: var(--grey-2);
+    transition: transform 0.25s ease;
 }
 
 .toggler__legend {
