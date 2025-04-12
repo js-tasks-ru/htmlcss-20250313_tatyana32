@@ -42,8 +42,8 @@
     line-height: 24px;
 }
 
-.icon {
+.modal__close {
     height: 24px;
     width: 24px;
-    fill: var(--grey-4);
+    color: var(--grey-4);
 }

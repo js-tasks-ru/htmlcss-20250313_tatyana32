@@ -37,12 +37,12 @@
     padding: 16px 0px 8px;
 }
 
-.accordion__item[open] .icon {
+.accordion__item[open] .accordion__icon {
     transform: rotate(180deg);
 }
 
-.icon {
+.accordion__icon {
     height: 24px;
     width: 24px;
-    fill: var(--grey-4);
+    color: var(--grey-4);
 }
