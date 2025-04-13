@@ -47,7 +47,7 @@
     border-width: 2px;
 }
 
-.radio__input:checked + .radio__state .radio__control::after {
+.radio__input:checked ~ .radio__state .radio__control::after {
     display: block;
 }
 
@@ -61,7 +61,7 @@
     color:  var(--grey-2);
 }
 
-.radio__input:disabled ~ .radio__state .radio__icon {
+.radio__input:disabled ~ .radio__state .radio__control::after {
     color: var(--grey-2);
 }
 
