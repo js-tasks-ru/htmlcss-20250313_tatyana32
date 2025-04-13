@@ -39,3 +39,9 @@
 .tooltip__trigger:hover ~ .tooltip__bubble {
     display: block;
 }
+
+.tooltip__icon {
+    height: 24px;
+    width: 24px;
+    color: var(--grey-4);
+}
