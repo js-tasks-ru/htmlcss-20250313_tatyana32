@@ -25,7 +25,12 @@
     justify-content: center;
 }
 
-.radio__icon {
+.radio__control::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: var(--primary);
+    border-radius: 50%;
     display: none;
 }
 
@@ -39,9 +44,10 @@
 
 .radio__input:checked ~ .radio__state .radio__control {
     border-color: var(--primary);
+    border-width: 2px;
 }
 
-.radio__input:checked ~ .radio__state .radio__icon {
+.radio__input:checked + .radio__state .radio__control::after {
     display: block;
 }
 
