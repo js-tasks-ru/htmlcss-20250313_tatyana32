@@ -2,10 +2,30 @@
 <!-- Страница радио -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../assets/css/index.css">
         <link rel="stylesheet" href="./radio.css">
     </head>
     <body>
-
+        <label class="radio">
+            <input type="radio" class="radio__input" name="fields">
+            <div class="radio__state">
+                <div class="radio__control"></div>
+                <div class="radio__legend">Default</div>
+            </div>
+        </label>
+        <label class="radio">
+            <input type="radio" class="radio__input" name="fields">
+            <div class="radio__state">
+                <div class="radio__control"></div>
+                <div class="radio__legend">Selected</div>
+            </div>
+        </label>
+        <label class="radio">
+            <input type="radio" class="radio__input" name="fields" disabled>
+            <div class="radio__state">
+                <div class="radio__control"></div>
+                <div class="radio__legend">Disabled</div>
+            </div>
+        </label>
     </body>
 </html>
