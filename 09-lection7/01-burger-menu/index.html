@@ -2,11 +2,39 @@
 <!-- Страница бургер-меню -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../assets/css/index.css">
         <link rel="stylesheet" href="./burger-menu.css">
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
-
+        <button id="burger-menu-open">
+            <svg>
+                <use href="../../assets/images/sprite.svg#menu"></use>
+            </svg>
+        </button>
+        <div id="burger-menu" class="burger-menu">
+            <div class="burger-menu__header">
+                <button id="burger-menu-close" class="burger-close-circle">
+                    <svg class="burger-close__icon">
+                        <use href="../../assets/images/sprite.svg#close"></use>
+                    </svg>
+                </button>
+                <div class="logo">
+                    <svg>
+                        <use href="../../assets/images/sprite.svg#logo"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="nav">
+                <h4 class="nav__title">Components</h4>
+                <a class="nav__tab" href="">Modal</a>
+                <a class="nav__tab" href="">Tooltip</a>
+                <a class="nav__tab" href="">Avatar</a>
+                <a class="nav__tab" href="">Calendar</a>
+                <a class="nav__tab nav__tab_selected" href="">Histogram</a>
+                <a class="nav__tab" href="">Custom form elements</a>
+                <a class="nav__tab" href="">Main page</a>
+            </div>
+        </div>
     </body>
 </html>
