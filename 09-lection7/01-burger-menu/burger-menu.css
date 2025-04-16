@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #F9FAFC;
+    background-color: rgba(249, 250, 252, 1);
     transform: translateX(-100vw);
     transition: transform 250ms ease-in-out;
     display: flex;
@@ -16,7 +16,7 @@
     transform: translateX(0);
 }
   
-.burger-close-circle {
+.burger-menu__close {
     position: absolute;
     left: 12px;
     top: 16px;
@@ -32,7 +32,7 @@
     padding: 0;
 }
 
-.burger-close__icon {
+.burger-menu__icon {
     width: 24px;
     height: 24px;
     color: var(--black);
@@ -44,42 +44,20 @@
     justify-content: center;
 }
 
-.logo {
+.burger-menu__logo {
     width: 110px;
     height: 32px;
     color: var(--black);
 }
 
-.theme-changer__divider {
-    height: 1px;
-    background-color: var(--grey-2);
-    margin: 0 16px;
-}
-
-.theme-changer__content {
-    padding: 24px 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-}
-
-.theme-changer__title {
-    font-family: 'Inter',sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--grey-4);
-}
-
-.menu-mobile {
+.burger-menu__nav {
     padding: 8px 16px 0;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.menu-mobile__title {    
+.burger-menu__nav-title {    
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -87,7 +65,7 @@
     color: var(--grey-3);
 }
 
-.menu-mobile__tab {
+.burger-menu__link {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -96,19 +74,15 @@
     text-decoration: none;
 }
 
-.menu-mobile__tab_selected {
+.burger-menu__link_selected {
     color: var(--red);
 }
 
-.menu-mobile__tab:last-child {
+.burger-menu__link:last-child {
     margin-top: 72px;
 }
 
 @media (min-width: 768px) {
-    #burger-menu-open {
-        display: none;
-    }
-
     .burger-menu {
         display: none;
     }
