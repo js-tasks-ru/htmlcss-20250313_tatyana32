@@ -35,3 +35,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+[data-theme-dark] {
+    --white: #121212;
+  }
