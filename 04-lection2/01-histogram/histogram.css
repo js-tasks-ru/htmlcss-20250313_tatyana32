@@ -50,14 +50,17 @@
     gap: 1px;
     height: 50px;
     flex-grow: 1;
+    transform-origin: bottom;
+    animation: grow 0.6s ease-out;
 }
 
 .histogram__color {
     background-color: var(--blue);
+    flex: 1;
 }
 
 .histogram__column_full {
-    height: 100%;
+    align-items: stretch;
 }
 
 .histogram__column_large {
@@ -72,3 +75,12 @@
 .histogram__column_small {
     height: 25%;
 }
+
+@keyframes grow {
+    from {
+      transform: scaleY(0);
+    }
+    to {
+      transform: scaleY(1);
+    }
+  }
