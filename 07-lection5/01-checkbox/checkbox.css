@@ -23,10 +23,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .checkbox__icon {
     display: none;
+    position: relative;
+    z-index: 1;
 }
 
 .checkbox__legend {
@@ -62,4 +66,34 @@
 
 .checkbox__input:focus ~ .checkbox__state .checkbox__legend {
     text-decoration: underline;
+}
+
+.checkbox__input:checked ~ .checkbox__state .checkbox__ripple {
+    animation: ripple-expand 0.4s ease-out;
+}
+
+.checkbox__ripple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes ripple-expand {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0.4;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
 }
