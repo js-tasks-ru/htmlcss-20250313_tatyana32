@@ -3,11 +3,41 @@
     <head>
         <link rel="stylesheet" href="../assets/css/index.css">
         <link rel="stylesheet" href="../04-lection2/01-histogram/histogram.css";>
+        <link rel="stylesheet" href="../07-lection5/03-toggler/toggler.css">
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     </head>
     <body>
         <div class="page">
-            <header class="header header_component"></header>
+            <header class="header header_component">
+                <div class="container">
+                    <div class="header__controls">
+                        <button id="burger-menu-open" class="header__menu">
+                            <svg>
+                                <use href="../../assets/images/sprite.svg#menu"></use>
+                            </svg>
+                        </button>
+                        <div class="header__logo">
+                            <svg>
+                                <use href="../../assets/images/sprite.svg#logo"></use>
+                            </svg>
+                        </div>
+                        <div class="header__theme-changer">
+                            <svg class="header__icon-light">
+                                <use href="../../assets/images/sprite.svg#sun"></use>
+                            </svg>
+                            <label class="toggler">
+                                <input type="checkbox" class="toggler__input">
+                                <div class="toggler__state">
+                                    <div class="toggler__control"></div>
+                                </div>
+                            </label>
+                            <svg class="header__icon-dark">
+                                <use href="../../assets/images/sprite.svg#moon"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </header>
             <main class="page__main">
                 <div class="container">
                     <div class="page__main-content">
