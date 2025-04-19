@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./burger-menu.css">
         <link rel="stylesheet" href="../../07-lection5/03-toggler/toggler.css">
         <script defer src="./burger-menu.js"></script>
+        <script defer src="../../10-lection8/01-theme-changer/theme-changer.js"></script>
     </head>
     <body>
         <button id="burger-menu-open">
@@ -26,6 +27,15 @@
                         <use href="../../assets/images/sprite.svg#logo"></use>
                     </svg>
                 </div>
+            </div>
+            <div class="burger-menu__toggler">
+                <p class="burger-menu__toggler-title">Dark mode</p>
+                <label class="toggler">
+                    <input type="checkbox" class="toggler__input" id="theme-changer">
+                    <div class="toggler__state">
+                        <div class="toggler__control"></div>
+                    </div>
+                </label>
             </div>
             <div class="burger-menu__nav">
                 <h4 class="burger-menu__nav-title">Components</h4>

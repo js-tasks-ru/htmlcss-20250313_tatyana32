@@ -2,6 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    padding: 0 16px;
     width: 100vw;
     height: 100vh;
     background-color: rgba(249, 250, 252, 1);
@@ -39,7 +40,7 @@
 }
 
 .burger-menu__header {
-    padding: 16px 12px;
+    padding: 16px 0;
     display: flex;
     justify-content: center;
 }
@@ -50,8 +51,25 @@
     color: var(--black);
 }
 
+.burger-menu__toggler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+}
+
+.burger-menu__toggler-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
 .burger-menu__nav {
-    padding: 8px 16px 0;
+    padding-top: 8px;
     display: flex;
     flex-direction: column;
     gap: 16px;
