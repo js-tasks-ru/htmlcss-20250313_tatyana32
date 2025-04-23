@@ -35,6 +35,13 @@
 .header__icon {
     height: 24px;
     width: 24px;
+}
+
+.header__icon_light {
+    color: var(--grey-4);
+}
+
+.header__icon_dark {
     color: var(--grey-3);
 }
 
