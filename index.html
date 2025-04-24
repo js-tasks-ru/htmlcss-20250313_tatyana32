@@ -2,14 +2,70 @@
 <!-- Главная страница -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="./assets/css/index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/index.css">
+        <link rel="stylesheet" href="./09-lection7/01-burger-menu/burger-menu.css">
+        <script defer src="./09-lection7/01-burger-menu/burger-menu.js"></script>
+        <link rel="stylesheet" href="./07-lection5/03-toggler/toggler.css">
+        <script defer src="./10-lection8/01-theme-changer/theme-changer.js"></script>
     </head>
     <body>
         <div class="page">
             <header class="header">
                 <div class="container">
-                    <h1 class="header__title">Reusable component library</h1>
+                    <div class="header__panel">
+                        <div class="header__controls">
+                            <button class="header__menu" id="burger-menu-open">
+                                <svg>
+                                    <use href="../../assets/images/sprite.svg#menu"></use>
+                                </svg>
+                            </button>
+                            <div id="burger-menu" class="burger-menu">
+                                <div class="burger-menu__header">
+                                    <button id="burger-menu-close" class="burger-menu__close">
+                                        <svg class="burger-menu__icon">
+                                            <use href="../../assets/images/sprite.svg#close"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="burger-menu__logo">
+                                        <svg>
+                                            <use href="../../assets/images/sprite.svg#logo"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="burger-menu__nav">
+                                    <h4 class="burger-menu__nav-title">Components</h4>
+                                    <a class="burger-menu__link" href="">Modal</a>
+                                    <a class="burger-menu__link burger-menu__link_selected" href="">Tooltip</a>
+                                    <a class="burger-menu__link" href="">Avatar</a>
+                                    <a class="burger-menu__link" href="">Calendar</a>
+                                    <a class="burger-menu__link" href="">Histogram</a>
+                                    <a class="burger-menu__link" href="">Custom form elements</a>
+                                    <a class="burger-menu__link" href="">Main page</a>
+                                </div>
+                            </div>
+                            <div class="header__logo">
+                                <svg>
+                                    <use href="../../assets/images/sprite.svg#logo"></use>
+                                </svg>
+                            </div>
+                            <label class="toggler">
+                                <div class="header__theme-changer">
+                                    <input type="checkbox" class="toggler__input" id="theme-changer">
+                                    <svg class="header__icon header__icon_light">
+                                        <use href="../../assets/images/sprite.svg#sun"></use>
+                                    </svg>
+                                    <div class="toggler__state">
+                                        <div class="toggler__control"></div>
+                                    </div>
+                                    <svg class="header__icon header__icon_dark">
+                                        <use href="../../assets/images/sprite.svg#moon"></use>
+                                    </svg>
+                                </div>
+                            </label>
+                        </div>
+                        <h1 class="header__title">Reusable component library</h1>
+                    </div>
                 </div>
             </header>
             <main class="main">
